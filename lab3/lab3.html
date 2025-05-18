@@ -9,10 +9,8 @@
       
       
       
-        <link rel="prev" href="../api.html">
+        <link rel="prev" href="../lab2/task2.html">
       
-      
-        <link rel="next" href="task2.html">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -20,7 +18,7 @@
     
     
       
-        <title>task1 - WEB documentation (spring)</title>
+        <title>docker + celery (lab3) - WEB documentation (spring)</title>
       
     
     
@@ -62,7 +60,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#threading-multiprocessing-async-python" class="md-skip">
+        <a href="#fastapi-docker" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              task1
+              docker + celery (lab3)
             
           </span>
         </div>
@@ -313,19 +311,17 @@
       
   
   
-    
   
   
-  
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -339,7 +335,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             потоки, процессы, асинхронность (lab2)
@@ -350,30 +346,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    task1
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="task1.html" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../lab2/task1.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -382,53 +358,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#async" class="md-nav__link">
-    <span class="md-ellipsis">
-      async
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#threading" class="md-nav__link">
-    <span class="md-ellipsis">
-      threading
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#multiprocessing" class="md-nav__link">
-    <span class="md-ellipsis">
-      multiprocessing
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -441,7 +370,7 @@
   
   
     <li class="md-nav__item">
-      <a href="task2.html" class="md-nav__link">
+      <a href="../lab2/task2.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -466,10 +395,30 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../lab3/lab3.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    docker + celery (lab3)
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="lab3.html" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -478,6 +427,44 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Конфигурация
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Эндпоинты
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -509,27 +496,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#async" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      async
+      Конфигурация
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#threading" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      threading
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#multiprocessing" class="md-nav__link">
-    <span class="md-ellipsis">
-      multiprocessing
+      Эндпоинты
     </span>
   </a>
   
@@ -550,179 +528,225 @@
                   
 
 
-<h1 id="threading-multiprocessing-async-python">Threading, multiprocessing и async в Python</h1>
-<p><strong>Задача</strong>: Напишите три различных программы на Python, 
-использующие каждый из подходов: threading, multiprocessing и async. 
-Каждая программа должна решать считать сумму всех чисел от 1 до 
-1000000000. Разделите вычисления на несколько параллельных задач 
-для ускорения выполнения.</p>
-<h2 id="async">async</h2>
-<pre><code class="language-python">import asyncio
-import time
+<h1 id="fastapi-docker">Упаковка FastAPI приложения в Docker, Работа с источниками данных и Очереди</h1>
+<h2 id="_1">Конфигурация</h2>
+<p><code>Dockerfile</code> основного приложения (books)</p>
+<pre><code class="language-dockerfile">FROM python:3.11
 
+WORKDIR /app
 
-async def calculate_partial_sum(start, end):
-    return sum(range(start, end + 1))
+RUN apt-get update &amp;&amp; apt-get install -y netcat-openbsd
 
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
 
-async def main():
-    n = 1_000_000_000
-    num_tasks = 1000
-    chunk_size = n // num_tasks
+COPY . .
 
-    print(f&quot;Вычисление суммы чисел от 1 до {n:,}&quot;)
-    print(f&quot;Используется {num_tasks} асинхронных задач...&quot;)
+COPY wait-for-postgres.sh /wait-for-postgres.sh
+RUN chmod +x /wait-for-postgres.sh
 
-    # корутины
-    tasks = []
-    for i in range(num_tasks):
-        start = i * chunk_size + 1
-        end = (i + 1) * chunk_size if i != num_tasks - 1 else n
-        tasks.append(calculate_partial_sum(start, end))
-
-    start_time = time.time()
-
-    # запуск всех задач параллельно
-    partial_sums = await asyncio.gather(*tasks)
-    total_sum = sum(partial_sums)
-
-    end_time = time.time()
-
-    expected_sum = n * (n + 1) // 2
-    is_correct = total_sum == expected_sum
-
-    print(&quot;\nРезультат:&quot;)
-    print(f&quot;Вычисленная сумма: {total_sum}&quot;)
-    print(f&quot;Ожидаемая сумма:   {expected_sum}&quot;)
-    print(f&quot;Совпадает: {'Да' if is_correct else 'Нет'}&quot;)
-    print(f&quot;Время выполнения: {end_time - start_time:.6f} секунд&quot;)
-
-
-if __name__ == &quot;__main__&quot;:
-    asyncio.run(main())
+CMD [&quot;/wait-for-postgres.sh&quot;, &quot;uvicorn&quot;, &quot;app.main:app&quot;, &quot;--host&quot;, &quot;0.0.0.0&quot;, &quot;--port&quot;, &quot;8000&quot;]
 </code></pre>
+<p>В приложение <code>books</code> было добавлено 4 эндпоинта для общения с приложением
+parser:</p>
+<ul>
+<li>отправка урла для парсинга напрямую</li>
+<li>отправка урла для парсинга через очередь </li>
+<li>получение статуса задачи по её id </li>
+<li>вспомогательная ручка для получения всех сохраненных через парсер книг</li>
+</ul>
+<pre><code class="language-python">import httpx
+from fastapi import APIRouter, Depends, HTTPException
+from pydantic import BaseModel
+from sqlmodel import Session, select
+
+from app.db.session import get_session
+from app.models.models import BookParsed
+
+router = APIRouter()
+
+class ParseRequest(BaseModel):
+    url: str
+
+@router.post(&quot;/parse-queue&quot;)
+async def parse_url(data: ParseRequest):
+    try:
+        async with httpx.AsyncClient() as client:
+            response = await client.post(&quot;http://parser:9000/parse&quot;, json={&quot;url&quot;: data.url})
+        response.raise_for_status()
+        return {&quot;message&quot;: &quot;Парсинг отправлен&quot;, &quot;response&quot;: response.json()}
+    except httpx.RequestError as e:
+        raise HTTPException(status_code=502, detail=f&quot;Ошибка подключения к парсеру: {e}&quot;)
+    except httpx.HTTPStatusError as e:
+        raise HTTPException(status_code=e.response.status_code, detail=f&quot;Ошибка парсера: {e.response.text}&quot;)
+
+@router.get(&quot;/task-status/{task_id}&quot;)
+async def proxy_task_status(task_id: str):
+    try:
+        async with httpx.AsyncClient() as client:
+            response = await client.get(f&quot;http://parser:9000/task-status/{task_id}&quot;)
+        return response.json()
+    except Exception as e:
+        raise HTTPException(status_code=502, detail=f&quot;Ошибка при обращении к парсеру: {e}&quot;)
+
+@router.get(&quot;/parsed-books&quot;)
+def get_parsed_books(session: Session = Depends(get_session)):
+    books = session.exec(select(BookParsed)).all()
+    return books
+
+@router.post(&quot;/parse-direct&quot;)
+async def proxy_parse_direct(data: ParseRequest):
+    try:
+        async with httpx.AsyncClient() as client:
+            response = await client.post(&quot;http://parser:9000/parse-direct&quot;, json={&quot;url&quot;: data.url})
+        response.raise_for_status()
+        return response.json()
+    except httpx.RequestError as e:
+        raise HTTPException(status_code=502, detail=f&quot;Ошибка подключения к парсеру: {e}&quot;)
+    except httpx.HTTPStatusError as e:
+        raise HTTPException(status_code=e.response.status_code, detail=e.response.text)
+</code></pre>
+<p><code>Dockerfile</code> приложения parser</p>
+<pre><code class="language-dockerfile">FROM python:3.11
+
+WORKDIR /app
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY ./app ./app
+
+CMD [&quot;uvicorn&quot;, &quot;app.main:app&quot;, &quot;--host&quot;, &quot;0.0.0.0&quot;, &quot;--port&quot;, &quot;9000&quot;]
+</code></pre>
+<p><code>celery_worker.py</code> - использует redis в качестве брокера задач и бэкенда, запускает
+асинхронный парсинг урла</p>
+<pre><code class="language-python">from celery import Celery
+import asyncio
+
+from .parser import async_parse
+
+celery_app = Celery(
+    &quot;parser&quot;,
+    broker=&quot;redis://redis:6379/0&quot;,
+    backend=&quot;redis://redis:6379/0&quot;
+)
+
+@celery_app.task
+def parse_url_task(url: str):
+    count = asyncio.run(async_parse(url))
+    return f&quot;Добавлено книг: {count}&quot;
+</code></pre>
+<p>В приложении <code>parser</code> есть 3 эндпоинта: добавление задачи в очередь, получение
+статуса задачи по её id и прямой парсинг урла:</p>
+<pre><code class="language-python">from celery.result import AsyncResult
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel
+
+from .celery_worker import parse_url_task, celery_app
+from .parser import async_parse
+
+app = FastAPI()
+
+class URLInput(BaseModel):
+    url: str
+
+@app.post(&quot;/parse&quot;)
+def trigger_parse_task(data: URLInput):
+    if not data.url.startswith(&quot;http&quot;):
+        raise HTTPException(status_code=400, detail=&quot;Invalid URL&quot;)
+    task = parse_url_task.delay(data.url)
+    return {&quot;message&quot;: &quot;Task submitted&quot;, &quot;task_id&quot;: task.id}
+
+@app.get(&quot;/task-status/{task_id}&quot;)
+def get_task_status(task_id: str):
+    task = AsyncResult(task_id, app=celery_app)
+    return {
+        &quot;task_id&quot;: task.id,
+        &quot;status&quot;: task.status,
+        &quot;result&quot;: task.result if task.successful() else None
+    }
+
+@app.post(&quot;/parse-direct&quot;)
+async def parse_direct(data: URLInput):
+    try:
+        count = await async_parse(data.url)
+        return {&quot;message&quot;: &quot;Парсинг завершён&quot;, &quot;added&quot;: count}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f&quot;Ошибка парсинга: {e}&quot;)
+</code></pre>
+<p><code>docker-compose.yml</code> конфигурирует все необходимые контейнеры и их зависимости:</p>
+<ul>
+<li><strong>books</strong> - основное приложение, зависит от db</li>
+<li><strong>parser</strong> - микросервис, зависит от db и redis</li>
+<li><strong>worker</strong> - обработчик задач из очереди, получает задачи из Redis, зависит от parser, redis, db</li>
+<li><strong>redis</strong> - брокер очередей и хранилище результатов Celery</li>
+<li><strong>db</strong> - PostgreSQL база данных, используется обоими приложениями, сохраняет данные между перезапусками через pgdata</li>
+</ul>
+<pre><code class="language-dockerfile">version: '3.8'
+
+services:
+  books:
+    build:
+      context: ./books
+    container_name: books
+    ports:
+      - &quot;8000:8000&quot;
+    depends_on:
+      - db
+    env_file:
+      - ./books/.env
+
+  parser:
+    build:
+      context: ./parser
+    container_name: parser
+    ports:
+      - &quot;9000:9000&quot;
+    depends_on:
+      - db
+      - redis
+    env_file:
+      - .env
+
+  worker:
+    build:
+      context: ./parser
+    container_name: parser-worker
+    command: celery -A app.celery_worker.celery_app worker --loglevel=info
+    depends_on:
+      - parser
+      - redis
+      - db
+    env_file:
+      - .env
+
+  redis:
+    image: redis:7
+    container_name: redis
+    ports:
+      - &quot;6379:6379&quot;
+
+  db:
+    image: postgres:15
+    container_name: postgres
+    restart: always
+    env_file:
+      - .env
+    ports:
+      - &quot;5432:5432&quot;
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
+</code></pre>
+<h2 id="_2">Эндпоинты</h2>
+<p>Отправка урла на парсинг через очередь</p>
 <p><img alt="img.png" src="img.png" /></p>
-<p>Используемый подход:</p>
-<ul>
-<li>Асинхронность</li>
-<li>Параллельное выполнение 1000 подзадач</li>
-<li>Числовой диапазон делится на 1000 равных частей (чанков)</li>
-<li>Каждая асинхронная задача вычисляет сумму своего чанка</li>
-</ul>
-<p><code>asyncio.gather()</code> планирует выполнение всех переданных корутин в event loop,
-а <code>await</code> запускает механизм кооперативной многозадачности.</p>
-<p>При встрече блокирующей операции <code>sum(range(...)</code> корутина не освобождает поток, так как это CPU-операция
-=&gt; все корутины из <code>gather()</code> выполняются конкурентно (не строго параллельно), переключаясь в одной нити, и мы получаем <strong>нулевой выигрыш в скорости</strong>.</p>
-<h2 id="threading">threading</h2>
-<pre><code class="language-python">import threading
-import time
-
-def calculate_partial_sum(start, end, result, index):
-    partial_sum = sum(range(start, end + 1))
-    result[index] = partial_sum
-
-def main():
-    n = 1000000000
-    num_threads = 4
-    chunk_size = n // num_threads
-    result = [0] * num_threads
-    threads = []
-
-    start_time = time.time()
-
-    for i in range(num_threads):
-        start = i * chunk_size + 1
-        end = (i + 1) * chunk_size if i != num_threads - 1 else n
-        thread = threading.Thread(
-            target=calculate_partial_sum,
-            args=(start, end, result, i)
-        )
-        threads.append(thread)
-        thread.start()
-
-    for thread in threads:
-        thread.join()
-
-    total_sum = sum(result)
-    end_time = time.time()
-
-    expected_sum = n * (n + 1) // 2
-    is_correct = (total_sum == expected_sum)
-
-    print(&quot;\nРезультат:&quot;)
-    print(f&quot;Вычисленная сумма: {total_sum}&quot;)
-    print(f&quot;Ожидаемая сумма:   {expected_sum}&quot;)
-    print(f&quot;Совпадает: {'Да' if is_correct else 'Нет'}&quot;)
-    print(f&quot;Время выполнения: {end_time - start_time:.6f} секунд&quot;)
-
-if __name__ == &quot;__main__&quot;:
-    main()
-</code></pre>
+<p>Просмотр статуса задачи по id</p>
 <p><img alt="img_1.png" src="img_1.png" /></p>
-<p>Используемый подход:</p>
-<ul>
-<li>Многопоточность</li>
-<li>Разделение задачи на 4 параллельных потока</li>
-<li>Каждый поток работает со своим чанком</li>
-<li>Результаты сохраняются в общий список по индексу (нет конфликтов при доступе к данным)</li>
-</ul>
-<p><code>thread.start()</code> запускает поток, <code>thread.join()</code> ожидает его завершения.</p>
-<p><strong>GIL</strong> позволяет выполняться только одному потоку за раз для Python-кода =&gt; для CPU-bound задач (<code>sum()</code>) выигрыш в скорости минимален.</p>
-<h2 id="multiprocessing">multiprocessing</h2>
-<pre><code class="language-python">import multiprocessing
-import time
-
-
-def calculate_partial_sum(start, end):
-    return sum(range(start, end + 1))
-
-
-def main():
-    n = 1000000000
-    num_processes = multiprocessing.cpu_count()  # все доступные ядра
-    chunk_size = n // num_processes
-
-    print(f&quot;Вычисление суммы чисел от 1 до {n:,}&quot;)
-    print(f&quot;Используется {num_processes} процессов...&quot;)
-
-    ranges = []
-    for i in range(num_processes):
-        start = i * chunk_size + 1
-        end = (i + 1) * chunk_size if i != num_processes - 1 else n
-        ranges.append((start, end))
-
-    start_time = time.time()
-
-    # пул процессов
-    with multiprocessing.Pool(processes=num_processes) as pool:
-        partial_sums = pool.starmap(calculate_partial_sum, ranges)
-        total_sum = sum(partial_sums)
-
-    end_time = time.time()
-
-    expected_sum = n * (n + 1) // 2
-    is_correct = total_sum == expected_sum
-
-    print(&quot;\nРезультат:&quot;)
-    print(f&quot;Вычисленная сумма: {total_sum}&quot;)
-    print(f&quot;Ожидаемая сумма:   {expected_sum}&quot;)
-    print(f&quot;Совпадает: {'Да' if is_correct else 'Нет'}&quot;)
-    print(f&quot;Время выполнения: {end_time - start_time:.6f} секунд&quot;)
-
-
-if __name__ == &quot;__main__&quot;:
-    main()
-</code></pre>
+<p>Отправка урла на парсинг напрямую</p>
 <p><img alt="img_2.png" src="img_2.png" /></p>
-<p>Используемый подход:</p>
-<ul>
-<li>Параллелизацию через механизм многопроцессности</li>
-<li>Каждый процесс работает в отдельном интерпретаторе Python с собственным GIL.</li>
-<li>Автоматически задействует <code>multiprocessing.cpu_count()</code> ядер - все ядра CPU</li>
-</ul>
-<p>Каждый процесс вычисляет свою часть суммы независимо, 
-управление ресурсами осуществлено через <code>multiprocessing.Pool</code>.
-Метод <code>starmap</code> обеспечивает параллельный запуск функции с разными аргументами.</p>
 
 
 
